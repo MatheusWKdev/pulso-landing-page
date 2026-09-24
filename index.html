@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulso Academia | Landing page conceitual Vestinger</title>
+    <meta
+      name="description"
+      content="Projeto conceitual de landing page para academia urbana fictícia, criada para o portfólio da Vestinger Web Design."
+    />
+    <meta property="og:title" content="Pulso Academia | Projeto conceitual" />
+    <meta
+      property="og:description"
+      content="Academia fictícia com landing page moderna, comercial e responsiva desenvolvida para portfólio."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#topo" aria-label="Pulso Academia - início">
+          <span class="brand-mark" aria-hidden="true">P</span>
+          <span>Pulso</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="menu-principal" data-nav-panel>
+          <a href="#estrutura">Estrutura</a>
+          <a href="#modalidades">Modalidades</a>
+          <a href="#plano">Plano</a>
+          <a href="#horarios">Horários</a>
+          <a href="#localizacao">Localização</a>
+          <a class="nav-cta" href="https://wa.me/5511999990000" target="_blank" rel="noreferrer">
+            Começar agora
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="topo" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Academia urbana no centro</p>
+            <h1 id="hero-title">Treine perto. Treine simples.</h1>
+            <p class="hero-text">
+              Estrutura completa, horário amplo e um plano único para você colocar o treino na rotina sem burocracia.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://wa.me/5511999990000" target="_blank" rel="noreferrer">
+                Aula experimental
+              </a>
+              <a class="button button-ghost" href="#plano">Ver plano</a>
+            </div>
+          </div>
+
+          <aside class="hero-ticket reveal" aria-label="Resumo comercial">
+            <span>Plano único</span>
+            <strong>R$ 99,90</strong>
+            <small>por mês + matrícula fictícia de R$ 49,90</small>
+            <a href="#localizacao">Centro, a 2 min da Praça Central</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section benefits" aria-labelledby="benefits-title">
+        <div class="container split-heading reveal">
+          <p class="eyebrow">Sem complicar</p>
+          <h2 id="benefits-title">Tudo o que você precisa para manter constância.</h2>
+        </div>
+        <div class="container benefits-grid">
+          <article class="metric reveal">
+            <span>06h - 23h</span>
+            <p>Horário amplo para encaixar o treino antes, durante ou depois do expediente.</p>
+          </article>
+          <article class="metric reveal">
+            <span>1 plano</span>
+            <p>Acesso a musculação, cardio, pesos livres e avaliação inicial sem tabelas confusas.</p>
+          </article>
+          <article class="metric reveal">
+            <span>Centro</span>
+            <p>Localização prática para quem mora, trabalha ou circula pela região central.</p>
+          </article>
+          <article class="metric reveal">
+            <span>Equipe</span>
+            <p>Profissionais disponíveis para orientar, ajustar treinos e acompanhar sua evolução.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section structure" id="estrutura" aria-labelledby="structure-title">
+        <div class="container structure-grid">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Estrutura</p>
+            <h2 id="structure-title">Uma academia compacta, completa e bem resolvida.</h2>
+            <p>
+              A Pulso foi pensada para o dia a dia: circulação fácil, equipamentos bem distribuídos,
+              ambiente climatizado e áreas claras para cada tipo de treino.
+            </p>
+            <ul class="check-list">
+              <li>Área de musculação com máquinas guiadas</li>
+              <li>Cardio com esteiras, bikes e elípticos</li>
+              <li>Pesos livres, bancos e acessórios funcionais</li>
+              <li>Vestiários, armários e espaços de apoio</li>
+            </ul>
+          </div>
+          <div class="photo-stack reveal">
+            <img
+              src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=80"
+              alt="Equipamentos modernos em uma sala de musculação organizada"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80"
+              alt="Área de treino com pesos e aparelhos em academia moderna"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section modalities" id="modalidades" aria-labelledby="modalities-title">
+        <div class="container split-heading reveal">
+          <p class="eyebrow">Modalidades</p>
+          <h2 id="modalities-title">Treino direto, com opções para diferentes rotinas.</h2>
+        </div>
+        <div class="container modality-list">
+          <article class="modality reveal">
+            <span>01</span>
+            <h3>Musculação</h3>
+            <p>Máquinas, pesos livres e treinos personalizados para força, postura e condicionamento.</p>
+          </article>
+          <article class="modality reveal">
+            <span>02</span>
+            <h3>Cardio</h3>
+            <p>Equipamentos para aquecimento, resistência, gasto energético e rotina de saúde.</p>
+          </article>
+          <article class="modality reveal">
+            <span>03</span>
+            <h3>Funcional</h3>
+            <p>Espaço com acessórios para mobilidade, estabilidade e treinos dinâmicos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery-section" aria-labelledby="gallery-title">
+        <div class="container gallery-layout">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Galeria</p>
+            <h2 id="gallery-title">Veja o clima da Pulso antes de chegar.</h2>
+            <p>
+              Uma seleção visual do ambiente, pensada para mostrar estrutura, circulação e experiência
+              de treino sem depender de promessas exageradas.
+            </p>
+          </div>
+
+          <div class="gallery reveal" data-gallery>
+            <div class="gallery-main">
+              <button class="gallery-btn prev" type="button" aria-label="Imagem anterior" data-gallery-prev>&larr;</button>
+              <img
+                data-gallery-image
+                src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=82"
+                alt="Sala de musculação com equipamentos modernos e iluminação industrial"
+              />
+              <button class="gallery-btn next" type="button" aria-label="Próxima imagem" data-gallery-next>&rarr;</button>
+            </div>
+            <p class="gallery-caption" data-gallery-caption>Musculação organizada para treinos guiados e pesos livres.</p>
+            <div class="gallery-thumbs" data-gallery-thumbs aria-label="Miniaturas da galeria"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="price-band" id="plano" aria-labelledby="price-title">
+        <div class="container price-grid reveal">
+          <div>
+            <p class="eyebrow">Plano único</p>
+            <h2 id="price-title">Um plano. A academia inteira.</h2>
+            <p>
+              Sem categorias escondidas: você entra, treina e usa a estrutura completa durante todo o horário de funcionamento.
+            </p>
+          </div>
+          <div class="price-block" aria-label="Valor do plano">
+            <span>A partir de</span>
+            <strong>R$ 99,90</strong>
+            <small>/ mês</small>
+          </div>
+          <div class="price-details">
+            <ul>
+              <li>Musculação e cardio inclusos</li>
+              <li>Avaliação inicial fictícia inclusa</li>
+              <li>Treinos sem limite de frequência</li>
+              <li>Primeira aula experimental gratuita</li>
+            </ul>
+            <a class="button button-primary" href="https://wa.me/5511999990000" target="_blank" rel="noreferrer">
+              Começar agora
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section schedule-location">
+        <div class="container two-columns">
+          <article class="schedule reveal" id="horarios" aria-labelledby="schedule-title">
+            <p class="eyebrow">Horários</p>
+            <h2 id="schedule-title">Aberta quando sua rotina permite.</h2>
+            <div class="schedule-row">
+              <span>Segunda a sexta</span>
+              <strong>06:00 - 23:00</strong>
+            </div>
+            <div class="schedule-row">
+              <span>Sábado</span>
+              <strong>08:00 - 18:00</strong>
+            </div>
+            <div class="schedule-row">
+              <span>Domingo</span>
+              <strong>09:00 - 13:00</strong>
+            </div>
+          </article>
+
+          <article class="location reveal" id="localizacao" aria-labelledby="location-title">
+            <p class="eyebrow">Localização</p>
+            <h2 id="location-title">No centro, perto do fluxo da cidade.</h2>
+            <address>
+              Rua Aurora, 248 - Centro<br />
+              Cidade Modelo, SP
+            </address>
+            <p>Referência fictícia: a duas quadras da Praça Central, próxima ao terminal urbano.</p>
+            <a class="button button-ghost" href="https://maps.google.com/?q=Rua%20Aurora%20248%20Centro%20Cidade%20Modelo" target="_blank" rel="noreferrer">
+              Ver rota
+            </a>
+            <div class="map-card" aria-label="Mapa ilustrativo da localização fictícia">
+              <span>Centro</span>
+              <i></i>
+              <b>Pulso</b>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section faq-section" aria-labelledby="faq-title">
+        <div class="container faq-grid">
+          <div class="section-copy reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-title">Perguntas antes de começar.</h2>
+          </div>
+          <div class="faq-list reveal">
+            <div class="faq-item">
+              <button type="button" aria-expanded="false">Preciso pagar matrícula?</button>
+              <div class="faq-answer">
+                <p>Sim. A matrícula fictícia é de R$ 49,90 e cobre o cadastro inicial e a avaliação de entrada.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" aria-expanded="false">Posso fazer uma aula experimental?</button>
+              <div class="faq-answer">
+                <p>Sim. A primeira aula experimental é gratuita, mediante agendamento pelo WhatsApp fictício.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" aria-expanded="false">Preciso marcar horário para treinar?</button>
+              <div class="faq-answer">
+                <p>Não. O acesso é livre durante o horário de funcionamento, respeitando a capacidade do espaço.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" aria-expanded="false">O plano dá acesso a toda a academia?</button>
+              <div class="faq-answer">
+                <p>Sim. O plano único inclui musculação, cardio, pesos livres e área funcional.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" aria-expanded="false">Posso cancelar quando quiser?</button>
+              <div class="faq-answer">
+                <p>Sim. Para este projeto conceitual, o cancelamento foi pensado como simples e sem fidelidade.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button type="button" aria-expanded="false">A academia possui vestiário?</button>
+              <div class="faq-answer">
+                <p>Sim. A estrutura fictícia inclui vestiários, armários rotativos e área de apoio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <div class="container reveal">
+          <p class="eyebrow">Aula experimental gratuita</p>
+          <h2 id="final-title">Seu treino começa no centro.</h2>
+          <p>Conheça a estrutura, tire suas dúvidas e veja se a Pulso encaixa na sua rotina.</p>
+          <a class="button button-primary" href="https://wa.me/5511999990000" target="_blank" rel="noreferrer">
+            Começar agora
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#topo" aria-label="Pulso Academia - início">
+            <span class="brand-mark" aria-hidden="true">P</span>
+            <span>Pulso</span>
+          </a>
+          <p>Academia urbana fictícia criada como projeto conceitual para portfólio.</p>
+        </div>
+        <div>
+          <h2>Navegação</h2>
+          <a href="#estrutura">Estrutura</a>
+          <a href="#modalidades">Modalidades</a>
+          <a href="#plano">Plano</a>
+          <a href="#localizacao">Localização</a>
+        </div>
+        <div>
+          <h2>Contato</h2>
+          <p>(11) 99999-0000</p>
+          <p>@pulso.academia</p>
+          <p>contato@pulsofic.com.br</p>
+        </div>
+        <div>
+          <h2>Funcionamento</h2>
+          <p>Seg a sex: 06:00 - 23:00</p>
+          <p>Sáb: 08:00 - 18:00</p>
+          <p>Dom: 09:00 - 13:00</p>
+        </div>
+      </div>
+      <div class="container footer-note">
+        Projeto conceitual desenvolvido para portfólio da Vestinger Web Design. Marca, dados, endereço,
+        valores, profissionais e contato são fictícios.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
